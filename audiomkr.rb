@@ -2,14 +2,19 @@
 
 require "wavefile"
 include WaveFile
-
+puts "What is the topic?"
+topic = gets.chomp
+puts "How many minutes?"
+time = gets.chomp
 x = 0
+count = Dir["#{topic}//**/*"].length
+
 FILES_TO_APPEND = []
-until x >= 6 do
-  rand_num = rand(1..6)
-  reader = Reader.new("#{rand_num}.wav")
+until x >= time.to_i * 60 do
+  rand_num = rand(1..count)
+  reader = Reader.new("#{topic}/#{rand_num}.wav")
   x = x + reader.total_duration.seconds
-  FILES_TO_APPEND.push("#{rand_num}.wav")
+  FILES_TO_APPEND.push("#{topic}/#{rand_num}.wav")
 end
 
 Writer.new("generated_track.wav", Format.new(:stereo, :pcm_24, 44100)) do |writer|
@@ -19,3 +24,5 @@ Writer.new("generated_track.wav", Format.new(:stereo, :pcm_24, 44100)) do |write
     end
   end
 end
+
+p count
