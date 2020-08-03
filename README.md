@@ -26,7 +26,7 @@
 
 ## Instructions
    - In terminal run `ruby audiomkr.rb`
-   - For 'topic' enter the name of the folder that contains the sounbites.
+   - For 'topic' enter the name of the folder that contains the soundbites.
    - For the length of the file enter in the number of minutes.
    - Enter what you want to call the final file. Do not add the extension. 
    - Press enter.
