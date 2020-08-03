@@ -6,6 +6,7 @@
 - Ruby 2.6.5
 - Wave File Gem (https://rubygems.org/gems/wavefile/versions/0.7.0)
 - A folder of soundbites that have been numbered and are in .wav format.
+- Currently written for and used on Mac OS only.
 
 ---
 
