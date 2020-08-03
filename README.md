@@ -38,7 +38,7 @@
 Reach out to me at one of the following places!
 
 - Email shawnabduvall@gmailcom
-- Twitter at <a href="http://twitter.com/shawnaduvall target="_blank">`@ShawnaDuvall`</a>
+- Twitter at <a href="http://twitter.com/shawnaduvall" target="_blank">`@ShawnaDuvall`</a>
 
 ---
 
