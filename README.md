@@ -6,7 +6,6 @@
 - Ruby 2.6.5
 - Wave File Gem (https://rubygems.org/gems/wavefile/versions/0.7.0)
 - A folder of soundbites that have been numbered and are in .wav format.
-- Currently written for and used on Mac OS only.
 
 ---
 
@@ -19,15 +18,15 @@
 ### Setup
 
 - Run bundle install
-- Create a folder in the main project directory with the topic name you want to use. The example file is called drums.
+- Create a folder in the main project fold with the topic name you want to use. The example file is called drums.
 - Make sure the soundbites are numbered from 1 - x. (example: 1.wav)
 
 ---
 
 ## Instructions
-   - In terminal run `ruby audiomkr.rb`
-   - For 'topic' enter the name of the folder that contains the soundbites.
-   - For the length of the file enter in the number of minutes.
+   - In terminal run ruby audiomkr.rb
+   - For 'topic' enter the name of the folder that contains the sounbites.
+   - For the length of the file enter in the number of minuets.
    - Enter what you want to call the final file. Do not add the extension. 
    - Press enter.
    - The file will be created in the main project folder.
@@ -38,7 +37,7 @@
 
 Reach out to me at one of the following places!
 
-- Email shawnabduvall@gmail.com
+- Email shawnabduvall@gmailcom
 - Twitter at <a href="http://twitter.com/shawnaduvall" target="_blank">`@ShawnaDuvall`</a>
 
 ---
