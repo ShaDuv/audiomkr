@@ -20,7 +20,7 @@
 - Run bundle install
 - Create a folder in the main project fold with the topic name you want to use. The example file is called drums.
 - Make sure the soundbites are numbered from 1 - x. (example: 1.wav)
-
+- Place the 'topic" file in a folder called "Library"
 ---
 
 ## Instructions
