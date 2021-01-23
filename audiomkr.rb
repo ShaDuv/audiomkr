@@ -21,7 +21,6 @@ track_count = 1
 previous = 0
 x = 0
 count = Dir["library/#{topic}//**/*"].length
-count = count - 1
 FILES_TO_APPEND = []
 
 n.times {
@@ -46,5 +45,6 @@ Writer.new(save_as, Format.new(:stereo, :pcm_24, 44100)) do |writer|
 end
 puts "Finished with file # #{track_count} of #{n}."
 track_count += 1
+FILES_TO_APPEND = []
 }
 
